@@ -44,7 +44,7 @@ header {
 }
 
 .buscador input {
-    width: 20em; /* Ancho fijo para el input del buscador */
+    width: 20em; 
     padding: 0.5em;
     border: none;
     border-radius: 4px;
@@ -145,7 +145,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: -0.5em; /* Ajuste para compensar el margen de los elementos */
+    margin: -0.5em; 
 }
 
 .producto {
