@@ -44,7 +44,7 @@ header {
 }
 
 .buscador input {
-    width: 20em; 
+    width: 25em; 
     padding: 0.5em;
     border: none;
     border-radius: 4px;
@@ -114,6 +114,18 @@ main {
     padding: 1em;
 }
 
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    margin: 1em;
+}
+
 .content {
     width: 80%;
     display: flex;
@@ -124,21 +136,27 @@ main {
 .bloque-grande {
     margin-bottom: 1em;
     background-color: #e4e4e4;
-    padding: 1em;
+    padding: 7em;
+    margin-bottom: 0.5em;
 }
 
 .bloques-medianos {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 1em;
 }
 
 .bloque-mediano {
-    flex: 1 1 30%;
+    display: flex;
     background-color: #e4e4e4;
-    padding: 1em;
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     box-sizing: border-box;
-    margin: 0.5em;
 }
 
 .productos {
@@ -150,8 +168,8 @@ main {
 
 .producto {
     flex: 1 1 18%;
-    max-width: 18%; /* Ancho máximo para los productos */
-    min-width: 200px; /* Ancho mínimo para los productos */
+    max-width: 18%; 
+    min-width: 200px; 
     background-color: #e4e4e4;
     padding: 1em;
     box-sizing: border-box;
