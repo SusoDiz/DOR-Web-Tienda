@@ -22,6 +22,15 @@ header {
     margin: auto;
 }
 
+.cabecera nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecera nav button {
+    margin: 0.2em;
+}
+
 .logo-nombre {
     display: flex;
     align-items: center;
@@ -96,6 +105,7 @@ header nav button {
 
 .barra-navegacion ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 0;
@@ -143,14 +153,7 @@ main {
     flex-direction: column;
     padding: 1em;
 }
-/*
-.bloque-grande {
-    margin-bottom: 1em;
-    background-color: #e4e4e4;
-    padding: 7em;
-    margin-bottom: 0.5em;
-}
-*/
+
 .bloque-grande img {
     width: 100%;
     height: auto;
@@ -207,8 +210,9 @@ footer section {
     width: 30%;
 }
 
-footer h4 {
+footer .titulo-footer {
     font-size: 1.2em;
+    font-weight: bold;
     margin-bottom: 0.5em;
 }
 
@@ -219,6 +223,7 @@ footer ul {
 }
 
 footer li {
+    margin-left: 1em;
     margin-bottom: 0.5em;
 }
 
